@@ -1,0 +1,9 @@
+body {
+    background-color: #000;
+}
+.rect__block {
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: -1; /* Ensure the canvas stays behind the navbar links */
+  }

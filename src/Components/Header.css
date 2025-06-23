@@ -1,0 +1,58 @@
+h1 {
+    color: #fff;
+    text-align: center;
+}
+hr {
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    position: relative; /* This will act as a container for the absolutely positioned wave */
+    text-align: center;
+    padding-top: 50px;
+    z-index: 1;
+}
+.wave__block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+.header__title {
+    position: relative;
+    z-index: 2; /* Keeps the heading above the wave */
+    color: #fff; /* Set the text color */
+    font-size: 3rem;
+    font-family: 'JetBrains Mono', monospace; /* Use the font you want */
+    margin: 0;
+    padding: 0;
+} 
+.navbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 99.9%;
+}
+
+.navbar a {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    position: relative;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transition: 0.24s ease-in;
+}
+.navbar a:hover {
+    background-color: #4f4f4f;
+    scale: 1.01;
+    z-index: 3;
+}

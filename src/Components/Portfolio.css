@@ -1,0 +1,68 @@
+.portfolio {
+    padding: 2rem;
+    background-color: black;
+}
+.portfolio__title {
+    text-align: center;
+    color: white;
+}
+
+.bentoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+}
+
+.projectCard {
+    background-color: black;
+    border: 1px solid white;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+    height: 300px;
+    display: flex;
+}
+
+.projectCard__inner {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease;
+    transform-style: preserve-3d;
+}
+
+.projectCard__front, .projectCard__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.projectCard__front {
+    display: flex;
+    background-color: #4d4d4d;
+    justify-content: center;
+}
+
+.projectCard:hover .projectCard__inner {
+    transform: rotateY(180deg);
+}
+
+.projectCard__back {
+    background-color: #4d4d4d;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.projectCard__info {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
