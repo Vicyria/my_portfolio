@@ -1,3 +1,7 @@
+:root{
+  background-color: black;
+  color: white;
+}
 body {
     font-family: 'JetBrains Mono', monospace;
     margin: 0;

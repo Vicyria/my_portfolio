@@ -1,9 +1,12 @@
-body {
-    background-color: #000;
+.hero-section{
+    margin: 4vw;
 }
-.rect__block {
-    position: absolute;
-    left: 10%;
-    transform: translateX(-50%);
-    z-index: -1; /* Ensure the canvas stays behind the navbar links */
-  }
+.name{
+    font-size: clamp(0.7em, 5vw, 1.5em);
+}
+.hero-title{
+    font-size: clamp(0.6em, 2vw, 1.3em);
+}
+.hero-text{
+    font-size: clamp(0.5em, 2vw, 1em)
+}

@@ -9,7 +9,7 @@ function Header() {
       <div className="wave__block">
         <Wave />
       </div>
-      <h1 className="header__title">Dunkelform</h1>
+      <h1 className="header__title">My Portfolio</h1>
       <hr />
       <nav className="navbar">
         <Link to ="/">Home</Link>

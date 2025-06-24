@@ -8,7 +8,7 @@ hr {
     margin: 0px;
 }
 .header {
-    position: relative; /* This will act as a container for the absolutely positioned wave */
+    position: relative; 
     text-align: center;
     padding-top: 50px;
     z-index: 1;
@@ -24,10 +24,10 @@ hr {
 }
 .header__title {
     position: relative;
-    z-index: 2; /* Keeps the heading above the wave */
-    color: #fff; /* Set the text color */
+    z-index: 2; 
+    color: #fff; 
     font-size: 3rem;
-    font-family: 'JetBrains Mono', monospace; /* Use the font you want */
+    font-family: 'JetBrains Mono', monospace; 
     margin: 0;
     padding: 0;
 } 
