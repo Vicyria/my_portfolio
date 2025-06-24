@@ -4,7 +4,6 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Header from "./Components/Header";
 import Contact from "./Components/Contact"
-import About from "./Components/About"
 
 function App() {
   return (
